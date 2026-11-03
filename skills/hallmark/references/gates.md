@@ -170,6 +170,19 @@ One line each. `a`/`b` clauses share a number and carry their own tier. Genre no
 | 49b | Reflex | M/R | A footer link, tab or breadcrumb wrapping. Guard: a real phrase that cannot shorten, two lines at most | shorten it |
 | 32 | Ledger | J | The same section compositions in the same order as a logged build; a fingerprint sharing more than three of six axes with a logged entry | change a composition or the order; say the delta in the stamp |
 
+### Korean (Hangul pages only)
+
+Inert on a page with no Hangul, or with too little of it to be the page's language (a lone 한국어 in an English page's language switcher). Rules and the Korean faces: `korean.md`. In `--scope app`, 96 is skipped like the other copy gates.
+
+| Gate | Tier | Class | The tell | The fix |
+| --- | --- | --- | --- | --- |
+| 91 | Floor | M | A page whose letters are mostly Hangul and that does not declare `lang="ko"` (or `ko-KR`) on `<html>`, `<body>` or `<main>`, or declares another language | `<html lang="ko">`; screen readers, hyphenation, quote marks and the font fallback all key off it |
+| 92 | Reflex | M | Hangul with no Hangul face: the stacks that reach it (`body`, `h1` to `h6`, `--font-display`, `--font-body`) name no known Korean family before the generic, so it falls to the OS default such as Malgun Gothic. A `:lang(ko)` stack or a `@font-face` with a Hangul `unicode-range` counts | a Korean family in the stack: the dealt theme's Hangul pairing, or Wanted Sans Variable, Nanum Square Neo, IBM Plex Sans KR, Asta Sans (`korean.md` § 2); Pretendard only when the user asks for it |
+| 93 | Reflex | M/R | Hangul text without `word-break: keep-all`: none anywhere in the CSS, or a Hangul block that computes another value | `body { word-break: keep-all; overflow-wrap: break-word }`; the value inherits, so one rule covers heads and paragraphs |
+| 94 | Reflex | R | Italic or oblique on Hangul text, so the browser slants the glyphs. `font-synthesis: none` (or `font-synthesis-style: none`) stops the slant and passes | upright Hangul; emphasis by weight, a mark or a colour |
+| 95 | Reflex | R | Hangul display text (a heading, or 28px and up) with line-height under 1.15, or a Hangul paragraph of two lines or more under 1.5. `normal` is measured from the wrapped lines | body 1.6 to 1.8, display heads 1.25 to 1.5 |
+| 96 | Reflex | M | Korean stock copy in visible text, from a short list of phrases that are almost never right on a web page: 「지금 바로 시작하세요」, 「특별한 경험을 선사」, 「혁신적인 솔루션」, 「결론적으로」, 「되어집니다」, 「지금이 바로 … 할 때입니다」, 「단순한 … 을/를 넘어」 and the rest of the list in `sloplint-ko.mjs` (stems, so endings inflect). 「에 있어서」 passes in statute and 약관 text. `copy: verbatim` reports it as a note | say what the thing is or does, with the number, the date or the next step (`korean.md` § 6) |
+
 ## 5. Finish checks and judged clauses
 
 Loaded at Step 7, with the sweep's findings in hand.
@@ -233,6 +246,8 @@ The gates above that a script cannot settle, with enough to judge them well.
 **84, the fake product.** Ask where the product is before building one. A prompt that names an app, a site or a tool that exists, a folder holding its code, or a URL means the page shows captures of it: the main screen, a detail, a second screen, the phone view. A built mock is right only for a product not built yet, and its handoff names the screens to capture later.
 
 **85 and the stock anatomy.** The close is the visible part of a deeper habit: hero beside a picture, a figure row, three steps, a split, a showcase, an email band. Judge the whole page against `anatomy.md`: is the job's action where real sites in the category put it, are the category's own sections here (the menu, the lineup, the issues, the record), and could this exact sequence of sections sit under a different business's name? If it could, the page has no anatomy of its own yet.
+
+**The Korean commerce footer.** A Korean page that sells online (a cart, a checkout, an order form, a price beside an order button) carries its business information on the first screen it can be found from, usually the footer, with the items `korean.md` § 7 lists and a link to the terms and the privacy policy where a form or an order exists. Judge three things: the block is there; every value comes from the brief or the user's data and a missing one is left as a named gap, never filled with a plausible number (46a); and it reads as small plain lines, not as a row of dots (63). A page that sells nothing online needs none of it. The law's current wording is the user's to check, so say which items you could not fill.
 
 ## 6. The reviews, in fresh context
 

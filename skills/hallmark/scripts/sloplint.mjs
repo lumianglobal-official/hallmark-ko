@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync, readdirSync, statSync, realpathSync, existsSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, extname, dirname, basename, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { checkKorean } from './sloplint-ko.mjs';
 
 const GENRES = ['editorial', 'modern-minimal', 'atmospheric', 'playful'];
 const args = process.argv.slice(2);
@@ -795,7 +796,7 @@ const trunc = (s, n = 72) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
 const PAGE_ONLY = new Set(['3', '8', '9', '25', '28', '32', '34', '42', '44', '46b', '47b', '47c', '49', '50', '54', '55', '56', '58', '59', '65', '66', '68', '69', '71', '77', '78', '79', '80', '81', '82', '83', 'F7', 'F8', 'F15', 'F16', 'F20']);
 const gateNumber = (id) => (/^(\d{1,2})/.exec(String(id)) || [])[1] || null;
 const pageOnly = (id) => PAGE_ONLY.has(String(id)) || PAGE_ONLY.has(gateNumber(id));
-const APP_SKIP = new Set(['1', '6', '8', '9', '32', '42', '44', '46b', '58', '59', '66', '68', '77', '78', '79', '81', '82', '83', '85', 'F8', 'F15', 'F20']);
+const APP_SKIP = new Set(['1', '6', '8', '9', '32', '42', '44', '46b', '58', '59', '66', '68', '77', '78', '79', '81', '82', '83', '85', '96', 'F8', 'F15', 'F20']);
 const appSkip = (id) => APP_SKIP.has(String(id)) || APP_SKIP.has(gateNumber(id));
 
 const TIERS = new Map(Object.entries({
@@ -815,6 +816,7 @@ const TIERS = new Map(Object.entries({
   '46a': 'floor', '46b': 'reflex', '47a': 'floor', '47b': 'reflex', '47c': 'reflex', '49a': 'floor', '49b': 'reflex',
   '55a': 'floor', '55b': 'reflex', '71': 'reflex', '72': 'reflex', '73': 'floor', '74': 'reflex', '75': 'reflex', '76': 'floor',
   '77': 'reflex', '78': 'reflex', '79': 'reflex', '80': 'reflex', '81': 'reflex', '82': 'reflex', '83': 'reflex', '84': 'reflex', '85': 'reflex',
+  '91': 'floor', '92': 'reflex', '93': 'reflex', '94': 'reflex', '95': 'reflex', '96': 'reflex',
 }));
 
 const HERO_SKIP = new Set(['8', '9', '32', '59', '76', '77', '78', 'F8', 'F15']);
@@ -895,7 +897,7 @@ let APPSCREEN = false;
 let LAYOUT_KEPT = false;
 const STRUCTURAL = new Set(['6b', '8', '9', '32', '42', '44a', '44c', '58', '77', '79']);
 const SPACING = new Set(['24b', '59', '78']);
-const COPY_GATES = new Set(['19', '58', '69']);
+const COPY_GATES = new Set(['19', '58', '69', '96']);
 
 const findings = [];
 function report(gate, grade, file, line, evidence, fix) {
@@ -3965,6 +3967,7 @@ function check76(ctx) {
   }
 }
 
+const checkKo = (ctx) => checkKorean(ctx, { report, maskedProse, getAttr, resolveVars });
 const CHECKS = [check1, check2, check3, check3Stripe, check4, check6a, check7, check10, check10Motion, check11,
   check12, check15, check17, check18, check19, check20, check22, check23, check24, check24a,
   check25, check26, check27, check28, check30, check33, check34, check37, check38a,
@@ -3972,7 +3975,7 @@ const CHECKS = [check1, check2, check3, check3Stripe, check4, check6a, check7, c
   check50, check50Wrap, check53, check54, check55, check56, checkCopyTell, check62, check63, check64, check65, check67, check38c,
   check19Tells, check58Static, check68, check69, check70, check42TwoButton, check47Placeholders, check65Tailwind, check29Glow, check11Lift, check15Fade,
   checkF1, checkF2, checkF3, checkF4, checkF5, checkF6, checkF7, checkF7Pills, checkF8, checkF9, checkF15, checkF16, checkF21, checkF22, checkF23, checkF24, check76,
-  checkTailwind, checkComponentText];
+  checkTailwind, checkComponentText, checkKo];
 
 const files = opts.paths.length ? collectFiles(opts.paths) : [];
 if (!files.length && !opts.urls.length) { console.error('sloplint: no .html, .css, .jsx, .tsx, .vue, .svelte or .astro files found'); process.exit(2); }

@@ -24,3 +24,6 @@ jobs:
 
       - name: Exhausted theme deals terminate
         run: node --test skills/hallmark/scripts/reroll-exhaustion.test.mjs
+
+      - name: Korean lint gates 91 to 96
+        run: node --test skills/hallmark/scripts/sloplint-ko.test.mjs

@@ -90,6 +90,7 @@ async function shoot(page, file, tag, fullPage) {
 }
 
 export async function renderCheck(htmlFiles, metaIn) {
+  const { observeKorean } = await import(new URL('./sloplint-ko.mjs', import.meta.url).href);
   const failed = [];
   const meta = { genre: null, postureByFile: {}, heroPostureByFile: {}, photoShapeByFile: {}, jobByFile: {}, stage: 'page', scope: 'page', before: false, ...(metaIn || {}) };
   const heroOnly = meta.stage === 'hero';
@@ -175,6 +176,7 @@ export async function renderCheck(htmlFiles, metaIn) {
           if (width === 375 && !heroOnly) { await settleImages(page); await frames(page); }
           if (width === 375) await shoot(page, file, heroOnly ? 'hero-375x812' : '375', !heroOnly);
           if (!heroOnly && (width === 375 || width === 1280)) for (const f of await page.evaluate(lineBreaks).catch(() => [])) findings.push({ ...f, file, line: 1 });
+          if (!heroOnly && (width === 375 || width === 1280)) for (const f of await page.evaluate(observeKorean, width).catch(() => [])) findings.push({ ...f, file, line: 1 });
           const res = await page.evaluate(observe, width === 1280, pageMeta);
           const measured = new Map();
           for (const f of res) {
