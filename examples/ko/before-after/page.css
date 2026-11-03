@@ -1,0 +1,29 @@
+/* Layout shared by both renders. Identical in before.html and after.html. */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--color-paper); color: var(--color-muted); font-family: var(--font-body); font-size: 17px; line-height: var(--lh-body); }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 48px; }
+.bar { border-bottom: 1px solid var(--color-rule); }
+.bar .wrap { display: flex; justify-content: space-between; align-items: center; height: 64px; }
+.mark { color: var(--color-ink); font-weight: 500; text-decoration: none; }
+.bar nav { display: flex; gap: 28px; }
+.bar nav a { color: var(--color-muted); text-decoration: none; font-weight: 500; font-size: 15px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: var(--display-weight); letter-spacing: var(--tracking-display); line-height: var(--lh-display); color: var(--color-ink); margin: 0; }
+.hero { padding: 88px 0 72px; display: grid; grid-template-columns: 1.15fr 1fr; gap: 56px; align-items: start; }
+h1 { font-size: 3.75rem; }
+.lead { color: var(--color-ink-2); font-size: 1.125rem; margin: 24px 0 32px; max-width: 30em; }
+.btns { display: flex; gap: 12px; }
+.btn { display: inline-block; padding: 12px 20px; border-radius: var(--radius-pill); font-weight: 500; text-decoration: none; border: 1px solid var(--color-rule-2); color: var(--color-ink); background: var(--color-paper-2); }
+.btn--primary { background: var(--color-accent); color: var(--color-accent-ink); border-color: var(--color-accent); }
+.panel { border: 1px solid var(--color-rule); background: var(--color-paper-2); border-radius: var(--radius-card); padding: 28px; }
+.reading { font-family: var(--font-outlier); font-size: 4rem; color: var(--color-ink); line-height: 1; margin: 16px 0 6px; font-variant-numeric: tabular-nums; }
+.reading small { font-size: 1.25rem; color: var(--color-muted); }
+.label { color: var(--color-muted); font-size: 14px; font-weight: 500; }
+.who { color: var(--color-accent); } .when { color: var(--color-cool); font-family: var(--font-outlier); font-size: 14px; }
+.band { background: var(--color-paper-3); border-top: 1px solid var(--color-rule); border-bottom: 1px solid var(--color-rule); padding: 72px 0; }
+h2 { font-size: 2.5rem; max-width: 14em; margin-bottom: 40px; }
+.trail { border-left: 1px solid var(--color-rule-2); margin: 0; padding: 0; list-style: none; }
+.trail li { padding: 0 0 28px 28px; position: relative; max-width: 44em; }
+.trail li::before { content: ""; position: absolute; left: -4px; top: 9px; width: 7px; height: 7px; background: var(--color-rule-2); border-radius: 50%; }
+.trail h3 { font-size: 1.5rem; margin-bottom: 6px; }
+.cta { padding: 80px 0 96px; }
+.cta h2 { margin-bottom: 20px; }

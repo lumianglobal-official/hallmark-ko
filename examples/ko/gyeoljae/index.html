@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한결세무회계, 종합소득세 신고 접수</title>
+<meta name="description" content="한결세무회계는 개인사업자의 종합소득세 신고를 접수합니다. 진행 절차와 신고 대행료, 준비 서류를 표로 안내합니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="bar">
+  <div class="container bar__row">
+    <a class="bar__mark" href="#top" aria-label="한결세무회계, 처음으로">한결세무회계</a>
+    <nav class="bar__links" aria-label="구역">
+      <a href="#steps">절차</a>
+      <a href="#fee">대행료</a>
+      <a href="#docs">준비 서류</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <h1>개인사업자 종합소득세 신고를 접수합니다</h1>
+        <p class="lead">소득 자료를 받아 신고서를 작성하고 제출과 납부 안내까지 한 사무실에서 맡습니다. 접수는 방문 전 예약으로 받습니다.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#visit">상담 예약</a>
+          <a class="btn" href="#docs">준비 서류 보기</a>
+        </div>
+      </div>
+      <div class="sheet" role="group" aria-label="종합소득세 신고 접수서 양식">
+        <div class="sheet__top">
+          <p class="sheet__title">종합소득세 신고 접수서</p>
+          <table class="approve">
+            <caption class="visually-hidden">결재란</caption>
+            <thead><tr><th scope="col">담당</th><th scope="col">검토</th><th scope="col">대표</th></tr></thead>
+            <tbody><tr><td></td><td></td><td></td></tr></tbody>
+          </table>
+        </div>
+        <table class="form">
+          <tbody>
+            <tr><th scope="row">성명</th><td class="hint">신분증과 같게 적습니다</td></tr>
+            <tr><th scope="row">사업자등록번호</th><td class="hint">10자리</td></tr>
+            <tr><th scope="row">업종</th><td class="hint">사업자등록증의 업태와 종목</td></tr>
+            <tr><th scope="row">신고 구분</th><td class="hint">단순경비율, 기준경비율, 복식부기 중 하나</td></tr>
+            <tr><th scope="row">소득 종류</th><td class="hint">사업소득, 임대소득, 기타소득 중 해당하는 것</td></tr>
+            <tr><th scope="row">연락처</th><td class="hint">신고서 확인을 안내받을 번호</td></tr>
+            <tr><th scope="row">접수일</th><td class="hint">　　　년　　월　　일</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps" id="steps" aria-labelledby="steps-h">
+    <div class="container">
+      <h2 id="steps-h">접수에서 제출까지 네 단계</h2>
+      <table class="form form--wide">
+        <thead><tr><th scope="col">단계</th><th scope="col">하는 일</th><th scope="col">맡는 사람</th><th scope="col">걸리는 시간</th></tr></thead>
+        <tbody>
+          <tr class="is-now"><td class="num">1</td><td>방문 전 예약을 받고 소득 종류를 확인합니다</td><td>고객, 담당 세무사</td><td>20분</td></tr>
+          <tr><td class="num">2</td><td>준비 서류를 사무실로 보냅니다</td><td>고객</td><td>고객이 정한 날</td></tr>
+          <tr><td class="num">3</td><td>소득과 경비를 정리해 신고서를 만듭니다</td><td>사무실</td><td>자료를 받은 뒤 3영업일</td></tr>
+          <tr><td class="num">4</td><td>고객이 신고서를 확인하면 제출하고 납부 방법을 안내합니다</td><td>사무실</td><td>확인한 날</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="fee" id="fee" aria-labelledby="fee-h">
+    <div class="container fee__grid">
+      <div class="fee__head">
+        <h2 id="fee-h">신고 대행료</h2>
+        <p>금액은 상담 뒤에 확정합니다. 아래는 구분별 시작 금액입니다.</p>
+      </div>
+      <table class="form form--wide">
+        <thead><tr><th scope="col">구분</th><th scope="col">대상</th><th scope="col" class="num">시작 금액(원)</th></tr></thead>
+        <tbody>
+          <tr><td>단순경비율</td><td>소규모 사업자, 장부 없이 신고</td><td class="num">100,000</td></tr>
+          <tr><td>기준경비율</td><td>장부 없이 신고하되 주요 경비 증빙 필요</td><td class="num">200,000</td></tr>
+          <tr><td>복식부기</td><td>장부를 쓰는 사업자</td><td class="num">300,000</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="docs" id="docs" aria-labelledby="docs-h">
+    <div class="container docs__grid">
+      <div class="docs__head">
+        <h2 id="docs-h">준비 서류</h2>
+        <p>챙기신 서류에 표시하면서 확인하세요. 접수일에 한꺼번에 가져오지 않으셔도 됩니다.</p>
+      </div>
+      <table class="form form--wide">
+        <thead><tr><th scope="col" class="tick">확인</th><th scope="col">서류</th><th scope="col">어디에서 받는지</th></tr></thead>
+        <tbody>
+          <tr><td class="tick"><input type="checkbox" id="d1" aria-labelledby="l1"></td><td id="l1">사업자등록증 사본</td><td>사업장에 보관 중인 원본</td></tr>
+          <tr><td class="tick"><input type="checkbox" id="d2" aria-labelledby="l2"></td><td id="l2">사업용 계좌 거래 내역</td><td>거래 은행</td></tr>
+          <tr><td class="tick"><input type="checkbox" id="d3" aria-labelledby="l3"></td><td id="l3">매입 세금계산서와 카드 사용 내역</td><td>홈택스, 카드사</td></tr>
+          <tr><td class="tick"><input type="checkbox" id="d4" aria-labelledby="l4"></td><td id="l4">전년도 신고서</td><td>직접 신고하셨다면 홈택스</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="band" id="visit" aria-labelledby="visit-h">
+    <div class="container band__row">
+      <h2 id="visit-h">접수는 방문 전 예약으로 받습니다</h2>
+      <table class="when">
+        <tbody>
+          <tr><th scope="row">접수 시간</th><td>월요일부터 금요일 9:30~17:30</td></tr>
+          <tr><th scope="row">휴무</th><td>토요일, 일요일, 공휴일</td></tr>
+          <tr><th scope="row">예약</th><td>사무실 전화로 방문 시간을 정합니다</td></tr>
+          <tr><th scope="row">위치</th><td>큰길 건너편 은행 옆 건물 3층, 엘리베이터가 있습니다</td></tr>
+          <tr><th scope="row">가져올 것</th><td>신분증과 위 준비 서류 중 챙기신 것</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="container">
+    <p class="foot__name">한결세무회계</p>
+    <p class="foot__legal">Hallmark 한글 테마 예시용 가상의 사무소입니다. 실제 사업장이 아니며 금액과 절차는 예시입니다.</p>
+  </div>
+</footer>
+</body>
+</html>

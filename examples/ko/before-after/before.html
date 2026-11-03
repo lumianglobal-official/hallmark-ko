@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한빛교정원, 계측기 교정</title>
+<!-- BEFORE: the Console theme as shipped. Theme tokens only, no Korean layer: no lang, no keep-all, no Hangul face, theme line-heights. Fictional business for a demo. -->
+<link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500&family=Atkinson+Hyperlegible+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<header class="bar"><div class="wrap"><a class="mark" href="#top">한빛교정원</a><nav aria-label="구역"><a href="#record">교정 기록</a><a href="#flow">진행 순서</a><a href="#ask">의뢰</a></nav></div></header>
+<main id="top">
+<div class="wrap hero">
+  <div>
+    <h1>저울과 온도계의 오차를 기록으로 남깁니다</h1>
+    <p class="lead">한빛교정원은 공장과 실험실의 계측기를 교정하고, 측정값과 기준값의 차이를 성적서에 그대로 적습니다. 접수한 계측기는 평균 사흘 안에 돌려보냅니다.</p>
+    <div class="btns"><a class="btn btn--primary" href="#ask">교정 의뢰하기</a><a class="btn" href="#record">교정 기록 보기</a></div>
+  </div>
+  <section class="panel" id="record" aria-label="교정 기록 예시">
+    <span class="label">전자저울 B-204, 기준 분동 500 그램</span>
+    <p class="reading">500.012<small> g</small></p>
+    <span class="label">오차 +0.012 그램, 허용 범위 안</span>
+    <p style="margin:18px 0 0"><span class="who">김서윤 연구원</span> 확인, <span class="when">2026. 10. 28. 14:05</span></p>
+  </section>
+</div>
+<section class="band" id="flow"><div class="wrap">
+  <h2>접수에서 성적서까지 세 단계로 진행합니다</h2>
+  <ol class="trail">
+    <li><h3>접수와 상태 확인</h3><p>계측기를 받으면 외관과 작동 상태를 사진과 함께 기록하고, 이상이 있으면 교정 전에 먼저 알립니다.</p></li>
+    <li><h3>기준기와 비교 측정</h3><p>국가 표준에 소급되는 기준기로 같은 조건에서 여러 번 측정하고, 값마다 불확도를 계산합니다.</p></li>
+    <li><h3>성적서 발급과 반환</h3><p>측정값, 오차, 사용한 기준기의 번호를 한 장에 적어 계측기와 함께 보냅니다.</p></li>
+  </ol>
+</div></section>
+<section class="cta" id="ask"><div class="wrap">
+  <h2>교정할 계측기가 있으면 먼저 종류만 알려 주세요</h2>
+  <p class="lead" style="margin-top:0">견적은 계측기의 종류와 수량으로 정해지며, 접수 전에 확인할 수 있습니다.</p>
+  <div class="btns"><a class="btn btn--primary" href="#ask">견적 요청하기</a></div>
+</div></section>
+</main>
+</body>
+</html>

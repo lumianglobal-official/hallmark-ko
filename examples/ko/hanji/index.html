@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>다담서재, 한옥 마루의 책방과 찻집</title>
+<meta name="description" content="다담서재는 한옥 마루에 책장을 세우고 차를 내는 동네 책방입니다. 차림과 일정, 찾아오는 길을 안내합니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400&family=Newsreader:opsz,wght@6..72,400&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri@977eeff68d1d40bcef341f09c1f56cce1903bb8a/subsets/MaruBuri-dynamic-subset.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="bar">
+  <div class="container bar__row">
+    <a class="bar__mark" href="#top" aria-label="다담서재, 처음으로">다담서재</a>
+    <nav class="bar__links" aria-label="구역">
+      <a href="#cha">오늘의 차</a>
+      <a href="#week">이번 주</a>
+      <a href="#visit">찾아오는 길</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <h1>한옥 마루에서 책을 읽고 차를 마십니다</h1>
+        <p class="lead">다담서재는 마루 두 칸에 책장을 세우고 차를 내는 동네 책방입니다. 낮 11시에 열고 저녁 7시에 닫습니다.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#visit">찾아오는 길 보기</a>
+          <a class="btn" href="#cha">오늘의 차 보기</a>
+        </div>
+      </div>
+      <figure class="plate hero__plate">
+        <div class="photo hero__photo" data-slot="hero" data-alt="나무 기둥과 흰 벽으로 짠 한옥 사랑방 안쪽">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Interior_of_a_traditional_Korean_house.JPG/1920px-Interior_of_a_traditional_Korean_house.JPG" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Interior_of_a_traditional_Korean_house.JPG/960px-Interior_of_a_traditional_Korean_house.JPG 960w, https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Interior_of_a_traditional_Korean_house.JPG/1280px-Interior_of_a_traditional_Korean_house.JPG 1280w, https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Interior_of_a_traditional_Korean_house.JPG/1920px-Interior_of_a_traditional_Korean_house.JPG 1920w" sizes="(min-width: 60rem) 58vw, 100vw" width="3872" height="2592" alt="나무 기둥과 흰 벽으로 짠 한옥 사랑방, 낮은 책상 위에 책이 놓여 있고 안쪽에 마루가 보인다" style="object-position: 50% 55%" fetchpriority="high">
+        </div>
+        <figcaption>한옥 사랑방 (자료 사진, 다담서재의 사진이 아닙니다)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="cha" id="cha" aria-labelledby="cha-h">
+    <div class="container cha__grid">
+      <div class="cha__head">
+        <h2 id="cha-h">오늘의 차</h2>
+        <p class="lead">차는 한 주전자에 두 잔이 나옵니다. 책을 사지 않아도 앉으실 수 있습니다.</p>
+      </div>
+      <div class="rows" role="list">
+        <div class="row" role="listitem"><div><h3>우전 녹차</h3><p>봄 첫물로 덖은 잎. 맑고 떫지 않습니다.</p></div><span class="num price">9,000원</span></div>
+        <div class="row" role="listitem"><div><h3>보이 숙차</h3><p>진하고 묵직한 흙 냄새. 식후에 어울립니다.</p></div><span class="num price">8,000원</span></div>
+        <div class="row" role="listitem"><div><h3>대추 생강차</h3><p>대추를 오래 달여 생강을 더했습니다.</p></div><span class="num price">7,000원</span></div>
+        <div class="row" role="listitem"><div><h3>유자차</h3><p>유자청을 뜨거운 물에 풀어 냅니다.</p></div><span class="num price">7,000원</span></div>
+        <div class="row" role="listitem"><div><h3>보리차</h3><p>구수하게 볶은 보리. 책 읽는 동안 리필합니다.</p></div><span class="num price">5,000원</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="say" aria-label="책방 안내">
+    <div class="container"><div class="say__grid">
+      <p class="say__line">마루에서 책을 펼쳐 읽으셔도 됩니다.</p>
+      <p class="say__line">계산하기 전에 찻잔을 곁에 두셔도 됩니다.</p>
+      <p class="say__line">다 읽지 못한 책은 책장에 꽂아 두고 가셔도 됩니다.</p>
+    </div></div>
+  </section>
+
+  <section class="week" id="week" aria-labelledby="week-h">
+    <div class="container week__grid">
+      <figure class="plate week__plate">
+        <div class="photo week__photo" data-slot="shelf" data-alt="천장까지 책장이 올라간 책방 한쪽 구석">
+        </div>
+        <figcaption>책장 사진이 들어갈 자리 (자료 사진)</figcaption>
+      </figure>
+      <div class="week__body">
+        <h2 id="week-h">이번 주 다담서재</h2>
+        <p>목요일 저녁에는 한 사람이 소리 내어 읽고 나머지가 듣습니다. 신청은 책방 카운터에서 받습니다.</p>
+        <ol class="days">
+          <li><b>월</b><span>쉽니다</span></li>
+          <li><b>화</b><span>11:00~19:00</span></li>
+          <li><b>수</b><span>11:00~19:00</span></li>
+          <li class="is-on"><b>목</b><span>낭독 19:00</span></li>
+          <li><b>금</b><span>11:00~19:00</span></li>
+          <li><b>토</b><span>11:00~19:00</span></li>
+          <li><b>일</b><span>12:00~18:00</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit" aria-labelledby="visit-h">
+    <div class="container visit__grid">
+      <h2 id="visit-h">찾아오는 길</h2>
+      <table class="info">
+        <tbody>
+          <tr><th scope="row">위치</th><td>큰길에서 두 번째 골목, 파란 대문 한옥 안쪽 마루</td></tr>
+          <tr><th scope="row">시간</th><td>화요일부터 토요일까지 낮 11시에서 저녁 7시, 일요일은 낮 12시에서 저녁 6시, 월요일은 쉽니다</td></tr>
+          <tr><th scope="row">신발</th><td>마루에 오르실 때 벗어 두시면 됩니다</td></tr>
+          <tr><th scope="row">책</th><td>헌책은 값을 책 뒤표지 안쪽 연필 글씨로 적어 둡니다</td></tr>
+          <tr><th scope="row">단체</th><td>여섯 분 넘게 오실 때는 미리 카운터에 알려 주세요</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="container">
+    <p class="foot__name">다담서재</p>
+    <p class="foot__legal">Hallmark 한글 테마 예시용 가상의 책방입니다. 실제 사업장이 아닙니다.</p>
+    <p class="foot__credits" data-credits>사진: <a href="https://commons.wikimedia.org/wiki/File:Interior_of_a_traditional_Korean_house.JPG">Adbar</a> (CC BY-SA 3.0, Wikimedia Commons), 모두 Wikimedia Commons.</p>
+  </div>
+</footer>
+
+<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
+</body>
+</html>

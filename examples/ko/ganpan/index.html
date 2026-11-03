@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>삼거리분식, 떡볶이와 순대와 튀김</title>
+<meta name="description" content="삼거리분식은 떡볶이, 순대, 튀김을 파는 동네 분식집입니다. 메뉴판과 가격, 여는 시간을 안내해요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/wanted-sans@1.0.3/fonts/webfonts/variable/split/WantedSansVariable.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="bar">
+  <div class="container bar__row">
+    <a class="bar__mark" href="#top" aria-label="삼거리분식, 처음으로">삼거리분식</a>
+    <nav class="bar__links" aria-label="구역">
+      <a href="#menu">메뉴판</a>
+      <a href="#hours">여는 시간</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="container hero__grid">
+      <div class="sign hero__sign">
+        <h1>삼거리분식, 떡볶이는 아침마다 새로 끓여요</h1>
+        <p class="lead">삼거리 모퉁이에서 떡볶이, 순대, 튀김을 팔아요. 아침 10시에 열어 밤 9시에 닫아요.</p>
+        <div class="hero__actions">
+          <a class="btn btn--paper" href="#menu">메뉴판 보기</a>
+          <a class="btn btn--line" href="#hours">여는 시간 보기</a>
+        </div>
+      </div>
+      <figure class="plate hero__plate">
+        <div class="photo hero__photo" data-slot="hero" data-alt="낮은 가게들이 줄지어 선 골목길">
+        </div>
+        <figcaption>가게 앞 사진이 들어갈 자리 (자료 사진, 삼거리분식의 사진이 아니에요)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="menu" id="menu" aria-labelledby="menu-h">
+    <div class="container">
+      <h2 id="menu-h">메뉴판</h2>
+      <div class="menu__boards">
+        <div class="board">
+          <h3>분식</h3>
+          <ul class="dishes">
+            <li class="dish"><div><b>떡볶이</b><p>순한 맛, 보통, 매운 맛 중에 골라요.</p></div><span class="price"><span class="num">4,500</span><small>원</small></span></li>
+            <li class="dish"><div><b>순대</b><p>오후 4시까지만 있어요.</p></div><span class="price"><span class="num">4,000</span><small>원</small></span></li>
+            <li class="dish"><div><b>김밥</b><p>한 줄을 썰어서 내요.</p></div><span class="price"><span class="num">3,500</span><small>원</small></span></li>
+            <li class="dish"><div><b>라면</b><p>계란 하나를 풀어 드려요.</p></div><span class="price"><span class="num">4,500</span><small>원</small></span></li>
+            <li class="dish"><div><b>우동</b><p>멸치 국물에 어묵을 얹어요.</p></div><span class="price"><span class="num">5,000</span><small>원</small></span></li>
+          </ul>
+        </div>
+        <div class="board">
+          <h3>튀김과 곁들임</h3>
+          <ul class="dishes">
+            <li class="dish"><div><b>모둠 튀김</b><p>오징어, 김말이, 고구마 튀김이에요.</p></div><span class="price"><span class="num">5,000</span><small>원</small></span></li>
+            <li class="dish"><div><b>어묵 꼬치</b><p>국물은 종이컵에 따라 드려요.</p></div><span class="price"><span class="num">1,500</span><small>원</small></span></li>
+            <li class="dish"><div><b>계란 두 알</b><p>삶아서 껍질을 벗겨 드려요.</p></div><span class="price"><span class="num">1,000</span><small>원</small></span></li>
+            <li class="dish"><div><b>캔 음료</b><p>콜라, 사이다 중에 골라요.</p></div><span class="price"><span class="num">1,500</span><small>원</small></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hours" id="hours" aria-labelledby="hours-h">
+    <div class="container hours__grid">
+      <figure class="plate hours__plate">
+        <div class="photo hours__photo" data-slot="griddle" data-alt="철판 앞에서 일하는 요리사">
+        </div>
+        <figcaption>철판 앞 사진이 들어갈 자리 (자료 사진)</figcaption>
+      </figure>
+      <div class="board hours__board">
+        <h2 id="hours-h">여는 시간</h2>
+        <table class="when">
+          <tbody>
+            <tr><th scope="row">월요일에서 토요일</th><td class="num">10:00 ~ 21:00</td></tr>
+            <tr><th scope="row">일요일</th><td class="off">쉬어요</td></tr>
+            <tr><th scope="row">순대</th><td class="num">16:00까지</td></tr>
+          </tbody>
+        </table>
+        <p>포장은 가게 앞 창구에서 받아요. 주문하면 바로 만들어 드려요.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sign closing" aria-label="오시는 길">
+    <div class="container closing__row">
+      <p class="closing__line">삼거리 모퉁이, 노란 차양 아래예요.</p>
+      <a class="btn btn--paper" href="#menu">메뉴판 다시 보기</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="container">
+    <p class="foot__name">삼거리분식</p>
+    <p class="foot__legal">Hallmark 한글 테마 예시용 가상의 분식집이에요. 실제 사업장이 아니에요.</p>
+  </div>
+</footer>
+
+<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
+</body>
+</html>
