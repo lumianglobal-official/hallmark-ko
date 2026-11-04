@@ -118,6 +118,11 @@ const words = (s) => (s || '').toLowerCase().replace(/[^a-z0-9\s-]/g, ' ').split
 const ASK = new Set(['build', 'make', 'create', 'design', 'need', 'want', 'please', 'page', 'site', 'website', 'landing', 'called', 'for', 'and', 'the', 'with', 'that', 'this', 'our', 'your']);
 const promptWords = (s) => words(s).filter((w) => !ASK.has(w));
 const stem = (w) => { let x = w.replace(/(?:ing|ed)$/, ''); if (x.length < 3) x = w; return x.endsWith('ss') ? x : x.replace(/s$/, ''); };
+// Korean layer: a Hangul brief also matches themes/hangul.json ko_keywords and the Hangul words in a theme's
+// own keywords, by substring (Korean has particles: 책방을, 세무사의). Latin matching is untouched.
+const HANGUL = /[\u3131-\u318E\uAC00-\uD7A3]/;
+const koMap = (() => { try { return JSON.parse(readFileSync(join(THEMES, 'hangul.json'), 'utf8')); } catch { return {}; } })();
+const koKeys = (t) => [...new Set([...((koMap[t.slug] || {}).ko_keywords || []), ...t.keywords.filter((k) => HANGUL.test(k))])];
 const hueGap = (a, b) => { const d = Math.abs(((a - b) % 360 + 360) % 360); return Math.min(d, 360 - d); };
 
 function seededRand(key) {
@@ -234,9 +239,13 @@ function deal() {
 
   const df = new Map();
   for (const t of themes) for (const k of new Set(t.keywords.map((k) => k.toLowerCase()))) df.set(k, (df.get(k) || 0) + 1);
+  const ko = HANGUL.test(prompt);
+  const kdf = new Map();
+  if (ko) for (const t of themes) for (const k of koKeys(t)) kdf.set(k, (kdf.get(k) || 0) + 1);
   const scored = themes.map((t) => {
     let fit = 0; const hits = [];
     for (const k of t.keywords) { const kw = k.toLowerCase().split(/\s+/).map(stem); if (kw.every((w) => bw.has(w))) { const d = df.get(k.toLowerCase()); fit += d <= 2 ? 3 : d <= 4 ? 2 : 1; hits.push(k); } }
+    if (ko) for (const k of koKeys(t)) if (prompt.includes(k)) { const d = kdf.get(k); fit += d <= 2 ? 3 : d <= 4 ? 2 : 1; hits.push(k); }
     if (t.genre === genre) fit += 2; else fit -= 1;
     const blocked = recentNames.has(t.name.toLowerCase()) || (lastAxes && lastAxes === triple(t));
     const sibling = occupiedAxes.has(triple(t));

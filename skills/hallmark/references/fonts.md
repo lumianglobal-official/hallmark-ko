@@ -19,6 +19,7 @@ Every model reaches for these first, so they read as unchosen: Inter, Roboto, Op
 - **Google Fonts.** Free, served from a CDN, works everywhere. The default source.
 - **Fontshare** (Indian Type Foundry). Free for commercial use, foundry grade. One line: `<link href="https://api.fontshare.com/v2/css?f[]=<family>@<weights>&display=swap" rel="stylesheet">`.
 - **A foundry** (Klim, Pangram Pangram, Production Type, Lineto, Colophon) only when the user has confirmed the licence; then ask which and pick from it directly.
+- **A Korean page.** Hangul faces, their sources and load rules are in [`korean.md`](korean.md) § 2 and § 3.
 
 ## Display faces the catalog does not use
 

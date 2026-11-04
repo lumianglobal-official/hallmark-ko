@@ -1,0 +1,1182 @@
+{
+ "almanac": {
+  "display_ko": "Wanted Sans Variable",
+  "body_ko": "Maru Buri",
+  "source": {
+   "Wanted Sans Variable": "https://cdn.jsdelivr.net/npm/wanted-sans@1.0.3/fonts/webfonts/variable/split/WantedSansVariable.css",
+   "Maru Buri": "https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri@977eeff68d1d40bcef341f09c1f56cce1903bb8a/subsets/MaruBuri-dynamic-subset.css"
+  },
+  "why": "Clean gothic heads for the reference-book grotesk, a Myeongjo-class body for the Newsreader prose.",
+  "ko_keywords": [
+   "연감",
+   "연보",
+   "백과",
+   "도감",
+   "편람",
+   "안내서",
+   "통계",
+   "자료실",
+   "데이터",
+   "사전",
+   "용어집",
+   "보고서"
+  ]
+ },
+ "arcade": {
+  "display_ko": "Galmuri11",
+  "body_ko": "Nanum Square Neo",
+  "source": {
+   "Galmuri11": "https://cdn.jsdelivr.net/npm/galmuri@2.40.3/dist/galmuri.css",
+   "Nanum Square Neo": "https://cdn.jsdelivr.net/gh/fonts-archive/NanumSquareNeo@44ddf60f0bd60dcf81fa74d10b99dafa1de988d0/subsets/NanumSquareNeo-dynamic-subset.css"
+  },
+  "why": "Galmuri11 is the pixel Hangul that sits beside Silkscreen and Bungee; a square gothic body keeps prose readable.",
+  "ko_keywords": [
+   "게임",
+   "레트로",
+   "픽셀",
+   "오락실",
+   "아케이드",
+   "해커톤",
+   "페스티벌",
+   "밋업",
+   "복고",
+   "파티",
+   "클럽"
+  ]
+ },
+ "atelier": {
+  "display_ko": "Hahmlet",
+  "body_ko": "Asta Sans",
+  "source": {
+   "Hahmlet": "google",
+   "Asta Sans": "google"
+  },
+  "why": "Hahmlet at light weights is the nearest Hangul to Sentient light; a plain variable gothic under it like Hanken Grotesk.",
+  "ko_keywords": [
+   "패션",
+   "아틀리에",
+   "향수",
+   "갤러리",
+   "전시",
+   "미술관",
+   "도자기",
+   "가구",
+   "건축",
+   "룩북",
+   "공예",
+   "수제",
+   "편집숍",
+   "소품샵"
+  ]
+ },
+ "bloom": {
+  "display_ko": "Paperlogy",
+  "body_ko": "Paperlogy",
+  "source": {
+   "Paperlogy": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy@d73efc3cd471a7faf198f39b1783b14da13dd7c4/subsets/Paperlogy-dynamic-subset.css"
+  },
+  "why": "Paperlogy has the soft, warm grotesk voice of Ranade across 100-900 weights, one family for heads and prose.",
+  "ko_keywords": [
+   "생성형",
+   "음악",
+   "노래",
+   "영상",
+   "이미지",
+   "목소리",
+   "작곡",
+   "창작",
+   "그림",
+   "놀이터",
+   "크리에이티브",
+   "만들기",
+   "감성"
+  ]
+ },
+ "blueprint": {
+  "display_ko": "IBM Plex Sans KR",
+  "body_ko": "IBM Plex Sans KR",
+  "source": {
+   "IBM Plex Sans KR": "google"
+  },
+  "why": "IBM Plex Sans KR is the Hangul sibling of the IBM Plex Sans body and suits technical drawing sheets.",
+  "ko_keywords": [
+   "건축",
+   "설계",
+   "시공",
+   "인테리어",
+   "엔지니어링",
+   "측량",
+   "도면",
+   "공사",
+   "리모델링",
+   "인허가",
+   "건설"
+  ]
+ },
+ "broadside": {
+  "display_ko": "Black Han Sans",
+  "body_ko": "Sunflower",
+  "source": {
+   "Black Han Sans": "google",
+   "Sunflower": "google"
+  },
+  "why": "Black Han Sans gives the wood-type poster weight; Sunflower is the sturdy narrow-ish gothic for notices.",
+  "ko_keywords": [
+   "경매",
+   "장터",
+   "행사",
+   "공지",
+   "포스터",
+   "축제",
+   "벼룩시장",
+   "티켓",
+   "공연",
+   "기계",
+   "공구",
+   "개최"
+  ]
+ },
+ "brutal": {
+  "display_ko": "Gmarket Sans",
+  "body_ko": "Gothic A1",
+  "source": {
+   "Gmarket Sans": "https://cdn.jsdelivr.net/gh/fonts-archive/GmarketSans@6e540c26aa0aef8a3316eff984d614647cd7340f/subsets/GmarketSans-dynamic-subset.css",
+   "Gothic A1": "google"
+  },
+  "why": "Gmarket Sans at 700 is wide and blunt like Libre Franklin 900; Gothic A1 reads plainly beside it.",
+  "ko_keywords": [
+   "브루탈",
+   "스트리트웨어",
+   "에이전시",
+   "포트폴리오",
+   "그래픽",
+   "선언",
+   "컬렉티브",
+   "드롭",
+   "스트릿",
+   "파격",
+   "팬진"
+  ]
+ },
+ "carnival": {
+  "display_ko": "Do Hyeon",
+  "body_ko": "Gowun Dodum",
+  "source": {
+   "Do Hyeon": "google",
+   "Gowun Dodum": "google"
+  },
+  "why": "Do Hyeon is a compact heavy poster face for the Big Shoulders slot; Gowun Dodum keeps the body friendly.",
+  "ko_keywords": [
+   "음반",
+   "레이블",
+   "팟캐스트",
+   "코미디",
+   "인디",
+   "독립",
+   "굿즈",
+   "핫소스",
+   "카세트",
+   "바이닐",
+   "라이브",
+   "일러스트",
+   "팬진"
+  ]
+ },
+ "cobalt": {
+  "display_ko": "Pretendard Variable",
+  "body_ko": "Pretendard Variable",
+  "source": {
+   "Pretendard Variable": "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"
+  },
+  "why": "Pretendard is the neutral Hangul match for a developer docs page: nine weights, dense tables and code-adjacent text, no personality to fight the ASCII field.",
+  "ko_keywords": [
+   "문서",
+   "오픈소스",
+   "인프라",
+   "백엔드",
+   "데이터베이스",
+   "배포",
+   "서버",
+   "개발",
+   "플랫폼"
+  ]
+ },
+ "console": {
+  "display_ko": "Asta Sans",
+  "body_ko": "Asta Sans",
+  "source": {
+   "Asta Sans": "google"
+  },
+  "why": "Asta Sans is a calm modern gothic with a wide weight range for 500-weight instrument readouts.",
+  "ko_keywords": [
+   "실험",
+   "연구",
+   "과학",
+   "프로토콜",
+   "모니터링",
+   "감사",
+   "계측",
+   "장비",
+   "로그",
+   "데이터"
+  ]
+ },
+ "coral": {
+  "display_ko": "Wanted Sans Variable",
+  "body_ko": "Wanted Sans Variable",
+  "source": {
+   "Wanted Sans Variable": "https://cdn.jsdelivr.net/npm/wanted-sans@1.0.3/fonts/webfonts/variable/split/WantedSansVariable.css"
+  },
+  "why": "Wanted Sans is a warm product gothic with the friendly register of General Sans, in one family.",
+  "ko_keywords": [
+   "구독",
+   "결제",
+   "청구",
+   "대시보드",
+   "스타트업",
+   "솔루션",
+   "가격",
+   "요금",
+   "핀테크",
+   "협업",
+   "온보딩",
+   "소프트웨어"
+  ]
+ },
+ "darkroom": {
+  "display_ko": "IBM Plex Sans KR",
+  "body_ko": "Gothic A1",
+  "source": {
+   "IBM Plex Sans KR": "google",
+   "Gothic A1": "google"
+  },
+  "why": "IBM Plex Sans KR at 200 gives the hairline condensed capitals a thin, cool Hangul counterpart; Gothic A1 400 holds on dark.",
+  "ko_keywords": [
+   "사진",
+   "필름",
+   "암실",
+   "인화",
+   "흑백",
+   "촬영",
+   "스냅",
+   "작품집",
+   "전시"
+  ]
+ },
+ "dose": {
+  "display_ko": "Pretendard Variable",
+  "body_ko": "Pretendard Variable",
+  "source": {
+   "Pretendard Variable": "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"
+  },
+  "why": "Health and family-care pages are read by older users: Pretendard has the most legible, evenly weighted Hangul at body sizes among the neutral options.",
+  "ko_keywords": [
+   "건강",
+   "복약",
+   "약국",
+   "처방",
+   "병원",
+   "의원",
+   "진료",
+   "돌봄",
+   "환자",
+   "부모님",
+   "헬스케어",
+   "알림",
+   "가족"
+  ]
+ },
+ "dusk": {
+  "display_ko": "SUIT Variable",
+  "body_ko": "SUIT Variable",
+  "source": {
+   "SUIT Variable": "https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2.0.5/fonts/variable/woff2/SUIT-Variable.css"
+  },
+  "why": "SUIT is a quiet, precise gothic for finance and ledger text; one family keeps tabular figures steady.",
+  "ko_keywords": [
+   "세무",
+   "회계",
+   "장부",
+   "결산",
+   "재무",
+   "금융",
+   "은행",
+   "핀테크",
+   "결제",
+   "정산",
+   "자금",
+   "경리",
+   "법인",
+   "부기"
+  ]
+ },
+ "editorial": {
+  "display_ko": "Black Han Sans",
+  "body_ko": "Maru Buri",
+  "source": {
+   "Black Han Sans": "google",
+   "Maru Buri": "https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri@977eeff68d1d40bcef341f09c1f56cce1903bb8a/subsets/MaruBuri-dynamic-subset.css"
+  },
+  "why": "Black Han Sans is the condensed heavy head for Bricolage 800; Maru Buri is the book-serif body under it.",
+  "ko_keywords": [
+   "매거진",
+   "잡지",
+   "에디토리얼",
+   "기사",
+   "인터뷰",
+   "칼럼",
+   "문화",
+   "패션",
+   "룩북",
+   "저널",
+   "간행물",
+   "발행",
+   "브랜드스토리"
+  ]
+ },
+ "formwork": {
+  "display_ko": "Black Han Sans",
+  "body_ko": "Gothic A1",
+  "source": {
+   "Black Han Sans": "google",
+   "Gothic A1": "google"
+  },
+  "why": "Black Han Sans has the poured, heavy capitals feel of Oswald 700; Gothic A1 is the plain site-office body.",
+  "ko_keywords": [
+   "건설",
+   "콘크리트",
+   "시공",
+   "토목",
+   "조경",
+   "공장",
+   "철공",
+   "공구",
+   "공사",
+   "중장비",
+   "제작소",
+   "스케이트파크"
+  ]
+ },
+ "furrow": {
+  "display_ko": "Nanum Square Neo",
+  "body_ko": "Nanum Square Neo",
+  "source": {
+   "Nanum Square Neo": "https://cdn.jsdelivr.net/gh/fonts-archive/NanumSquareNeo@44ddf60f0bd60dcf81fa74d10b99dafa1de988d0/subsets/NanumSquareNeo-dynamic-subset.css"
+  },
+  "why": "Nanum Square Neo has the open, square-cut working-form feel of Red Hat Display and stays legible in dense records.",
+  "ko_keywords": [
+   "농장",
+   "농업",
+   "농가",
+   "축산",
+   "목장",
+   "농산물",
+   "농기계",
+   "농사",
+   "작물",
+   "현장",
+   "점검",
+   "시골",
+   "귀농"
+  ]
+ },
+ "garden": {
+  "display_ko": "Nanum Myeongjo",
+  "body_ko": "Gowun Dodum",
+  "source": {
+   "Nanum Myeongjo": "google",
+   "Gowun Dodum": "google"
+  },
+  "why": "Nanum Myeongjo 700 is the sturdy Hangul serif for Vollkorn; Gowun Dodum is a soft gothic like Hanken Grotesk.",
+  "ko_keywords": [
+   "농장",
+   "양봉",
+   "꿀",
+   "과수원",
+   "사과",
+   "농원",
+   "묘목",
+   "허브",
+   "찻집",
+   "다원",
+   "수확",
+   "텃밭",
+   "제철",
+   "정원"
+  ]
+ },
+ "grid": {
+  "display_ko": "LINE Seed KR",
+  "body_ko": "LINE Seed KR",
+  "source": {
+   "LINE Seed KR": "https://cdn.jsdelivr.net/gh/fonts-archive/LINESeedKR@2d5df65a40d31aba7243f1ebeaee81450248eab3/subsets/LINESeedKR-dynamic-subset.css"
+  },
+  "why": "LINE Seed KR is a neutral geometric-leaning gothic, close to the Swiss grotesque register of Radio Canada.",
+  "ko_keywords": [
+   "아이덴티티",
+   "브랜딩",
+   "사이니지",
+   "타이포",
+   "박물관",
+   "기관",
+   "아카이브",
+   "스위스",
+   "그리드",
+   "시각디자인",
+   "안내체계"
+  ]
+ },
+ "halftone": {
+  "display_ko": "Gasoek One",
+  "body_ko": "Gothic A1",
+  "source": {
+   "Gasoek One": "google",
+   "Gothic A1": "google"
+  },
+  "why": "Gasoek One is a fat, blobby display Hangul that stands in for Ultra; Gothic A1 matches the Chivo body.",
+  "ko_keywords": [
+   "음료",
+   "소다",
+   "분식",
+   "식품",
+   "간식",
+   "과자",
+   "포장",
+   "패키지",
+   "인쇄소",
+   "스크린인쇄",
+   "캠페인",
+   "과일",
+   "제과"
+  ]
+ },
+ "hedgerow": {
+  "display_ko": "Diphylleia",
+  "body_ko": "Wanted Sans Variable",
+  "source": {
+   "Diphylleia": "google",
+   "Wanted Sans Variable": "https://cdn.jsdelivr.net/npm/wanted-sans@1.0.3/fonts/webfonts/variable/split/WantedSansVariable.css"
+  },
+  "why": "Diphylleia is a contrasty display Myeongjo with a botanical feel for Prata; Wanted Sans pairs with Manrope.",
+  "ko_keywords": [
+   "증류소",
+   "양조장",
+   "수제맥주",
+   "식물",
+   "트레킹",
+   "산책로",
+   "자연",
+   "숲",
+   "야생",
+   "허브",
+   "정원",
+   "탐방",
+   "생태"
+  ]
+ },
+ "hum": {
+  "display_ko": "Jua",
+  "body_ko": "Nanum Square Round",
+  "source": {
+   "Jua": "google",
+   "Nanum Square Round": "https://cdn.jsdelivr.net/gh/fonts-archive/NanumSquareRound@a36996c7df903b993c5ce5ab20e4cec0528a30c8/subsets/NanumSquareRound-dynamic-subset.css"
+  },
+  "why": "Jua and Nanum Square Round are the rounded Hangul pair for Chillax, playful and legible for family pages.",
+  "ko_keywords": [
+   "습관",
+   "학습",
+   "독서",
+   "아이",
+   "어린이",
+   "육아",
+   "가족",
+   "학교",
+   "학원",
+   "퍼즐",
+   "커뮤니티",
+   "일기",
+   "챌린지",
+   "놀이"
+  ]
+ },
+ "ink": {
+  "display_ko": "Pretendard Variable",
+  "body_ko": "Pretendard Variable",
+  "source": {
+   "Pretendard Variable": "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"
+  },
+  "why": "A civic notice board needs the most neutral, widely familiar Hangul at every weight; Pretendard is that, and Epilogue is plain enough not to clash.",
+  "ko_keywords": [
+   "도서관",
+   "동네",
+   "지역",
+   "주민",
+   "공동체",
+   "비영리",
+   "봉사",
+   "시민",
+   "대여",
+   "수리",
+   "회원",
+   "이웃",
+   "마을",
+   "모임",
+   "협동조합"
+  ]
+ },
+ "kiln": {
+  "display_ko": "Hahmlet",
+  "body_ko": "SUIT Variable",
+  "source": {
+   "Hahmlet": "google",
+   "SUIT Variable": "https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2.0.5/fonts/variable/woff2/SUIT-Variable.css"
+  },
+  "why": "Hahmlet carries a warm, contrasty serif voice on dark for Boska; SUIT is the clean body like Geist.",
+  "ko_keywords": [
+   "도예",
+   "도자",
+   "공방",
+   "가마",
+   "유약",
+   "요업",
+   "온도",
+   "작업실",
+   "원데이클래스",
+   "센서"
+  ]
+ },
+ "loom": {
+  "display_ko": "Maru Buri",
+  "body_ko": "Wanted Sans Variable",
+  "source": {
+   "Maru Buri": "https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri@977eeff68d1d40bcef341f09c1f56cce1903bb8a/subsets/MaruBuri-dynamic-subset.css",
+   "Wanted Sans Variable": "https://cdn.jsdelivr.net/npm/wanted-sans@1.0.3/fonts/webfonts/variable/split/WantedSansVariable.css"
+  },
+  "why": "Maru Buri at 300-400 is a soft, bookish Hangul serif for Libre Caslon Display; Wanted Sans for item titles and prose.",
+  "ko_keywords": [
+   "직물",
+   "섬유",
+   "원단",
+   "린넨",
+   "위빙",
+   "염색",
+   "자수",
+   "뜨개",
+   "직조",
+   "침구",
+   "패브릭",
+   "수공예"
+  ]
+ },
+ "lumen": {
+  "display_ko": "Hahmlet",
+  "body_ko": "SUIT Variable",
+  "source": {
+   "Hahmlet": "google",
+   "SUIT Variable": "https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2.0.5/fonts/variable/woff2/SUIT-Variable.css"
+  },
+  "why": "Hahmlet at light weights is a narrow-leaning premium serif for Instrument Serif; SUIT matches Geist.",
+  "ko_keywords": [
+   "인공지능",
+   "모델",
+   "추론",
+   "에이전트",
+   "음성",
+   "개발자",
+   "연구소",
+   "서버",
+   "토큰",
+   "머신러닝",
+   "딥러닝",
+   "챗봇"
+  ]
+ },
+ "manifesto": {
+  "display_ko": "Black Han Sans",
+  "body_ko": "Gothic A1",
+  "source": {
+   "Black Han Sans": "google",
+   "Gothic A1": "google"
+  },
+  "why": "Black Han Sans is the closest Hangul to Anton capitals; Gothic A1 is the plain body under a poster head.",
+  "ko_keywords": [
+   "선언",
+   "성명",
+   "캠페인",
+   "운동",
+   "신념",
+   "미션",
+   "시위",
+   "청원",
+   "서명",
+   "인권",
+   "연대",
+   "활동가"
+  ]
+ },
+ "midnight": {
+  "display_ko": "Paperlogy",
+  "body_ko": "Paperlogy",
+  "source": {
+   "Paperlogy": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy@d73efc3cd471a7faf198f39b1783b14da13dd7c4/subsets/Paperlogy-dynamic-subset.css"
+  },
+  "why": "Paperlogy at 300 has the wide, calm, light-weight geometry of expanded Mona Sans.",
+  "ko_keywords": [
+   "렌더",
+   "애니메이션",
+   "영상",
+   "시각효과",
+   "영화",
+   "야간",
+   "심야",
+   "시네마틱",
+   "편집",
+   "모션",
+   "후반작업"
+  ]
+ },
+ "newsprint": {
+  "display_ko": "Nanum Myeongjo",
+  "body_ko": "Maru Buri",
+  "source": {
+   "Nanum Myeongjo": "google",
+   "Maru Buri": "https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri@977eeff68d1d40bcef341f09c1f56cce1903bb8a/subsets/MaruBuri-dynamic-subset.css"
+  },
+  "why": "Nanum Myeongjo 800 is the bold newspaper headline serif; Maru Buri sets the column text.",
+  "ko_keywords": [
+   "신문",
+   "뉴스",
+   "언론",
+   "저널리즘",
+   "기자",
+   "칼럼",
+   "사설",
+   "논평",
+   "에세이",
+   "시사",
+   "기사",
+   "문예",
+   "비평",
+   "서평"
+  ]
+ },
+ "overprint": {
+  "display_ko": "Gmarket Sans",
+  "body_ko": "Gothic A1",
+  "source": {
+   "Gmarket Sans": "https://cdn.jsdelivr.net/gh/fonts-archive/GmarketSans@6e540c26aa0aef8a3316eff984d614647cd7340f/subsets/GmarketSans-dynamic-subset.css",
+   "Gothic A1": "google"
+  },
+  "why": "Gmarket Sans at 700 is wide and heavy, the nearest Hangul to wide Anybody 900.",
+  "ko_keywords": [
+   "라이브",
+   "클럽",
+   "밴드",
+   "음악",
+   "페스티벌",
+   "인쇄",
+   "공연",
+   "티켓",
+   "술집",
+   "펑크",
+   "나이트"
+  ]
+ },
+ "pasteup": {
+  "display_ko": "Black Han Sans",
+  "body_ko": "Nanum Myeongjo",
+  "source": {
+   "Black Han Sans": "google",
+   "Nanum Myeongjo": "google"
+  },
+  "why": "Black Han Sans stands in for League Gothic on a photocopied flyer; Nanum Myeongjo is the galley text.",
+  "ko_keywords": [
+   "책방",
+   "북페어",
+   "마켓",
+   "벼룩시장",
+   "포스터",
+   "전단",
+   "펑크",
+   "워크숍",
+   "작가",
+   "출판",
+   "동인지",
+   "독립"
+  ]
+ },
+ "piste": {
+  "display_ko": "Do Hyeon",
+  "body_ko": "IBM Plex Sans KR",
+  "source": {
+   "Do Hyeon": "google",
+   "IBM Plex Sans KR": "google"
+  },
+  "why": "Do Hyeon is compact and heavy like Barlow Condensed 800; IBM Plex Sans KR stays readable outdoors.",
+  "ko_keywords": [
+   "스키",
+   "스노보드",
+   "리조트",
+   "겨울",
+   "아웃도어",
+   "등산",
+   "슬로프",
+   "시즌권",
+   "레이스",
+   "동호회",
+   "스포츠"
+  ]
+ },
+ "refract": {
+  "display_ko": "Asta Sans",
+  "body_ko": "Asta Sans",
+  "source": {
+   "Asta Sans": "google"
+  },
+  "why": "Asta Sans at 300 is the lightest clear gothic available, the Hangul counterpart of Funnel Display light.",
+  "ko_keywords": [
+   "수영장",
+   "스파",
+   "호텔",
+   "리조트",
+   "스킨케어",
+   "선크림",
+   "안경",
+   "유리",
+   "건축",
+   "인테리어",
+   "웰니스",
+   "목욕탕",
+   "대중탕",
+   "여름"
+  ]
+ },
+ "ribbon": {
+  "display_ko": "Gowun Dodum",
+  "body_ko": "Gowun Dodum",
+  "source": {
+   "Gowun Dodum": "google"
+  },
+  "why": "Gowun Dodum is a soft, round-cornered gothic whose single regular weight suits a quiet, low-contrast sleep-app voice.",
+  "ko_keywords": [
+   "수면",
+   "사운드",
+   "소리",
+   "백색소음",
+   "명상",
+   "휴식",
+   "힐링",
+   "앱",
+   "구독",
+   "호흡",
+   "취침",
+   "불면",
+   "숙면",
+   "마음챙김"
+  ]
+ },
+ "rim": {
+  "display_ko": "SUIT Variable",
+  "body_ko": "SUIT Variable",
+  "source": {
+   "SUIT Variable": "https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2.0.5/fonts/variable/woff2/SUIT-Variable.css"
+  },
+  "why": "SUIT is a crisp neutral gothic that sits well beside Switzer and mono measurements.",
+  "ko_keywords": [
+   "우주",
+   "위성",
+   "궤도",
+   "지상국",
+   "하드웨어",
+   "관제",
+   "센서",
+   "인프라",
+   "미션",
+   "계측",
+   "원격탐사",
+   "관측"
+  ]
+ },
+ "riso": {
+  "display_ko": "Paperlogy",
+  "body_ko": "Maru Buri",
+  "source": {
+   "Paperlogy": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy@d73efc3cd471a7faf198f39b1783b14da13dd7c4/subsets/Paperlogy-dynamic-subset.css",
+   "Maru Buri": "https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri@977eeff68d1d40bcef341f09c1f56cce1903bb8a/subsets/MaruBuri-dynamic-subset.css"
+  },
+  "why": "Paperlogy 800 is a lively heavy gothic for Cabinet Grotesk; Maru Buri echoes Literata.",
+  "ko_keywords": [
+   "리소",
+   "인쇄소",
+   "소규모출판",
+   "아트북",
+   "포스터",
+   "굿즈",
+   "핸드메이드",
+   "공방",
+   "오픈스튜디오",
+   "책방",
+   "판화",
+   "독립",
+   "인디"
+  ]
+ },
+ "solstice": {
+  "display_ko": "Hahmlet",
+  "body_ko": "Gowun Dodum",
+  "source": {
+   "Hahmlet": "google",
+   "Gowun Dodum": "google"
+  },
+  "why": "Hahmlet 700 is a high-contrast serif head for Yeseva One; Gowun Dodum is a warm body.",
+  "ko_keywords": [
+   "과수원",
+   "사이다",
+   "와이너리",
+   "와인",
+   "수확",
+   "제철",
+   "식품",
+   "농산물",
+   "포도",
+   "양조",
+   "달력",
+   "농촌",
+   "막걸리",
+   "전통주",
+   "장터",
+   "식당",
+   "메뉴"
+  ]
+ },
+ "specimen": {
+  "display_ko": "Hahmlet",
+  "body_ko": "LINE Seed KR",
+  "source": {
+   "Hahmlet": "google",
+   "LINE Seed KR": "https://cdn.jsdelivr.net/gh/fonts-archive/LINESeedKR@2d5df65a40d31aba7243f1ebeaee81450248eab3/subsets/LINESeedKR-dynamic-subset.css"
+  },
+  "why": "Hahmlet at 200-300 is the finest contrast Hangul serif here for hairline Bodoni; LINE Seed KR is the plain sans under it.",
+  "ko_keywords": [
+   "타이포그래피",
+   "서체",
+   "폰트",
+   "활자",
+   "글꼴",
+   "파운드리",
+   "에세이",
+   "문예",
+   "출판",
+   "포트폴리오",
+   "에이전시",
+   "인쇄",
+   "매거진",
+   "문학"
+  ]
+ },
+ "spore": {
+  "display_ko": "Maru Buri",
+  "body_ko": "Asta Sans",
+  "source": {
+   "Maru Buri": "https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri@977eeff68d1d40bcef341f09c1f56cce1903bb8a/subsets/MaruBuri-dynamic-subset.css",
+   "Asta Sans": "google"
+  },
+  "why": "Maru Buri 700 has the soft, chunky serif warmth of Young Serif; Asta Sans pairs with Instrument Sans.",
+  "ko_keywords": [
+   "버섯",
+   "발효",
+   "와인",
+   "보틀숍",
+   "저장",
+   "야시장",
+   "구독",
+   "소규모",
+   "식당",
+   "메뉴",
+   "재배",
+   "생산자",
+   "레스토랑",
+   "다이닝",
+   "효모",
+   "곰팡이"
+  ]
+ },
+ "sport": {
+  "display_ko": "Do Hyeon",
+  "body_ko": "Wanted Sans Variable",
+  "source": {
+   "Do Hyeon": "google",
+   "Wanted Sans Variable": "https://cdn.jsdelivr.net/npm/wanted-sans@1.0.3/fonts/webfonts/variable/split/WantedSansVariable.css"
+  },
+  "why": "Do Hyeon is compact and heavy for Saira Condensed 800; Wanted Sans pairs with Albert Sans.",
+  "ko_keywords": [
+   "러닝",
+   "마라톤",
+   "달리기",
+   "헬스",
+   "피트니스",
+   "팀",
+   "리그",
+   "경기",
+   "운동",
+   "대회",
+   "스포츠웨어",
+   "동호회",
+   "크로스핏",
+   "순위",
+   "스플릿"
+  ]
+ },
+ "squeeze": {
+  "display_ko": "Bagel Fat One",
+  "body_ko": "Nanum Square Round",
+  "source": {
+   "Bagel Fat One": "google",
+   "Nanum Square Round": "https://cdn.jsdelivr.net/gh/fonts-archive/NanumSquareRound@a36996c7df903b993c5ce5ab20e4cec0528a30c8/subsets/NanumSquareRound-dynamic-subset.css"
+  },
+  "why": "Bagel Fat One is round, compact and heavy like Gabarito 800; Nanum Square Round is the soft body.",
+  "ko_keywords": [
+   "과일",
+   "식료품",
+   "채소",
+   "반찬",
+   "분식",
+   "동네",
+   "배송",
+   "가게",
+   "마트",
+   "농장",
+   "제철",
+   "간식",
+   "가족",
+   "신선",
+   "로컬",
+   "메뉴",
+   "마켓"
+  ]
+ },
+ "sticker": {
+  "display_ko": "Gasoek One",
+  "body_ko": "Nanum Square Neo",
+  "source": {
+   "Gasoek One": "google",
+   "Nanum Square Neo": "https://cdn.jsdelivr.net/gh/fonts-archive/NanumSquareNeo@44ddf60f0bd60dcf81fa74d10b99dafa1de988d0/subsets/NanumSquareNeo-dynamic-subset.css"
+  },
+  "why": "Gasoek One is the wide, heavy sticker-cut display like Bowlby One SC; Nanum Square Neo for prose.",
+  "ko_keywords": [
+   "스티커",
+   "굿즈",
+   "문구",
+   "제작",
+   "메이커",
+   "수제",
+   "공예",
+   "포장",
+   "쇼핑몰",
+   "스토어",
+   "소상공인",
+   "라벨",
+   "셀러",
+   "상점"
+  ]
+ },
+ "studio": {
+  "display_ko": "Hahmlet",
+  "body_ko": "LINE Seed KR",
+  "source": {
+   "Hahmlet": "google",
+   "LINE Seed KR": "https://cdn.jsdelivr.net/gh/fonts-archive/LINESeedKR@2d5df65a40d31aba7243f1ebeaee81450248eab3/subsets/LINESeedKR-dynamic-subset.css"
+  },
+  "why": "Hahmlet 400 is a clean, even serif for Hedvig Letters Serif; LINE Seed KR pairs with Geist.",
+  "ko_keywords": [
+   "디자인",
+   "스튜디오",
+   "브랜딩",
+   "브랜드",
+   "아트디렉션",
+   "에이전시",
+   "포트폴리오",
+   "케이스스터디",
+   "그래픽",
+   "타이포",
+   "크리에이티브",
+   "작업물",
+   "디자이너"
+  ]
+ },
+ "terminal": {
+  "display_ko": "IBM Plex Sans KR",
+  "body_ko": "IBM Plex Sans KR",
+  "source": {
+   "IBM Plex Sans KR": "google"
+  },
+  "why": "Hangul never sets in a mono face; IBM Plex Sans KR is the technical sans beside Martian Mono, squared and plain.",
+  "ko_keywords": [
+   "터미널",
+   "명령줄",
+   "셸",
+   "오픈소스",
+   "셀프호스팅",
+   "개발자",
+   "서버",
+   "리눅스",
+   "시스템관리",
+   "도트파일",
+   "설치",
+   "데브옵스",
+   "홈랩"
+  ]
+ },
+ "terrazzo": {
+  "display_ko": "Gmarket Sans",
+  "body_ko": "Wanted Sans Variable",
+  "source": {
+   "Gmarket Sans": "https://cdn.jsdelivr.net/gh/fonts-archive/GmarketSans@6e540c26aa0aef8a3316eff984d614647cd7340f/subsets/GmarketSans-dynamic-subset.css",
+   "Wanted Sans Variable": "https://cdn.jsdelivr.net/npm/wanted-sans@1.0.3/fonts/webfonts/variable/split/WantedSansVariable.css"
+  },
+  "why": "Gmarket Sans is wide and geometric like Syne; Wanted Sans pairs with Onest.",
+  "ko_keywords": [
+   "자재",
+   "마감재",
+   "타일",
+   "석재",
+   "원목",
+   "테라조",
+   "샘플",
+   "쇼룸",
+   "인테리어",
+   "건축",
+   "카탈로그",
+   "세라믹",
+   "납품",
+   "설계"
+  ]
+ },
+ "ultraviolet": {
+  "display_ko": "LINE Seed KR",
+  "body_ko": "LINE Seed KR",
+  "source": {
+   "LINE Seed KR": "https://cdn.jsdelivr.net/gh/fonts-archive/LINESeedKR@2d5df65a40d31aba7243f1ebeaee81450248eab3/subsets/LINESeedKR-dynamic-subset.css"
+  },
+  "why": "LINE Seed KR is a geometric, friendly gothic close to Outfit, in one family with a light 100 for figures.",
+  "ko_keywords": [
+   "음악",
+   "오디오",
+   "믹싱",
+   "리믹스",
+   "디제이",
+   "프로듀서",
+   "플레이어",
+   "스트리밍",
+   "플레이리스트",
+   "앱",
+   "비트",
+   "녹음실",
+   "창작자",
+   "사운드",
+   "악기"
+  ]
+ },
+ "vantage": {
+  "display_ko": "Asta Sans",
+  "body_ko": "Asta Sans",
+  "source": {
+   "Asta Sans": "google"
+  },
+  "why": "Asta Sans at 300 is a light, precise gothic for sharpened-corner Geologica.",
+  "ko_keywords": [
+   "라이다",
+   "스캔",
+   "측량",
+   "지도",
+   "디지털트윈",
+   "드론",
+   "로봇",
+   "자율주행",
+   "지리정보",
+   "점검",
+   "문화유산",
+   "계측",
+   "공간정보",
+   "센서"
+  ]
+ },
+ "vellum": {
+  "display_ko": "Song Myung",
+  "body_ko": "Gowun Dodum",
+  "source": {
+   "Song Myung": "google",
+   "Gowun Dodum": "google"
+  },
+  "why": "Hangul has no blackletter; Song Myung is the old-world, calligraphic serif nearest to Grenze Gotisch, kept to large heads, with Gowun Dodum for prose.",
+  "ko_keywords": [
+   "로스터리",
+   "커피",
+   "카페",
+   "베이커리",
+   "빵집",
+   "와인",
+   "약재",
+   "책방",
+   "서점",
+   "인쇄",
+   "수제",
+   "장인",
+   "전통",
+   "시음",
+   "양조",
+   "한약방"
+  ]
+ },
+ "wayfind": {
+  "display_ko": "Nanum Square Neo",
+  "body_ko": "Nanum Square Neo",
+  "source": {
+   "Nanum Square Neo": "https://cdn.jsdelivr.net/gh/fonts-archive/NanumSquareNeo@44ddf60f0bd60dcf81fa74d10b99dafa1de988d0/subsets/NanumSquareNeo-dynamic-subset.css"
+  },
+  "why": "Hangul never sets in a mono face; Nanum Square Neo 800 is the signage-like square gothic for departure boards.",
+  "ko_keywords": [
+   "교통",
+   "지하철",
+   "철도",
+   "시간표",
+   "운행",
+   "버스",
+   "노선",
+   "출퇴근",
+   "도시",
+   "물류",
+   "여행",
+   "여정",
+   "실시간",
+   "이동",
+   "정류장"
+  ]
+ },
+ "werkstatt": {
+  "display_ko": "Gmarket Sans",
+  "body_ko": "Nanum Square Neo",
+  "source": {
+   "Gmarket Sans": "https://cdn.jsdelivr.net/gh/fonts-archive/GmarketSans@6e540c26aa0aef8a3316eff984d614647cd7340f/subsets/GmarketSans-dynamic-subset.css",
+   "Nanum Square Neo": "https://cdn.jsdelivr.net/gh/fonts-archive/NanumSquareNeo@44ddf60f0bd60dcf81fa74d10b99dafa1de988d0/subsets/NanumSquareNeo-dynamic-subset.css"
+  },
+  "why": "Gmarket Sans is geometric and heavy like Jost 700; Nanum Square Neo pairs with Karla.",
+  "ko_keywords": [
+   "학교",
+   "학원",
+   "교육",
+   "강의",
+   "강좌",
+   "수업",
+   "입학",
+   "모집",
+   "부트캠프",
+   "아카데미",
+   "워크숍",
+   "레지던시",
+   "입시",
+   "수강",
+   "기수"
+  ]
+ }
+}

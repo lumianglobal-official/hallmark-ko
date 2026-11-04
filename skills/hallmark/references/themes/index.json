@@ -790,6 +790,50 @@
    "picture": "references/themes/furrow.jpg"
   },
   {
+   "name": "Ganpan",
+   "slug": "ganpan",
+   "genre": "playful",
+   "posture": "committed",
+   "paper": {
+    "band": "mid",
+    "L": 83,
+    "hue": 85
+   },
+   "display": {
+    "class": "grotesk-heavy",
+    "face": "Black Han Sans"
+   },
+   "accent": {
+    "band": "warm",
+    "hue": 28
+   },
+   "keywords": [
+    "restaurant",
+    "eatery",
+    "diner",
+    "street food",
+    "snack bar",
+    "noodle",
+    "market",
+    "neighbourhood shop",
+    "menu",
+    "price list",
+    "takeout",
+    "bar",
+    "동네식당",
+    "식당",
+    "포차",
+    "포장마차",
+    "노포",
+    "국밥"
+   ],
+   "material": "tile-and-shutter grey ground with white menu boards on it, near-black ink in 2px rules, Black Han Sans for signs and prices over Wanted Sans, one acrylic-sign red used as a whole field",
+   "file": "references/themes/ganpan.md",
+   "photo": "natural con=6 sat=4",
+   "pictured": "Menu Board, Split hero",
+   "picture": "references/themes/ganpan.jpg"
+  },
+  {
    "name": "Garden",
    "slug": "garden",
    "genre": "editorial",
@@ -884,6 +928,49 @@
    "picture": "references/themes/grid.jpg"
   },
   {
+   "name": "Gyeoljae",
+   "slug": "gyeoljae",
+   "genre": "modern-minimal",
+   "posture": "restrained",
+   "paper": {
+    "band": "light",
+    "L": 97.5,
+    "hue": 95
+   },
+   "display": {
+    "class": "grotesk-sans",
+    "face": "IBM Plex Sans KR"
+   },
+   "accent": {
+    "band": "cool",
+    "hue": 262
+   },
+   "keywords": [
+    "public service",
+    "government",
+    "civic",
+    "b2b",
+    "legal",
+    "law firm",
+    "forms",
+    "application",
+    "reception",
+    "administration",
+    "공공",
+    "민원",
+    "법무",
+    "신청서",
+    "접수",
+    "서식",
+    "행정"
+   ],
+   "material": "copy-paper white with a pale tint for form heads, navy-black ink, IBM Plex Sans and IBM Plex Sans KR at 400 to 600, 1px navy rules that box every field and table, one navy for confirmation",
+   "file": "references/themes/gyeoljae.md",
+   "photo": "muted",
+   "pictured": "Ruled Forms, Split hero",
+   "picture": "references/themes/gyeoljae.jpg"
+  },
+  {
    "name": "Halftone",
    "slug": "halftone",
    "genre": "playful",
@@ -928,6 +1015,55 @@
    "photo": "natural vib=25 sat=10 con=6",
    "pictured": "Back of the Can, Settled hero",
    "picture": "references/themes/halftone.jpg"
+  },
+  {
+   "name": "Hanji",
+   "slug": "hanji",
+   "genre": "editorial",
+   "posture": "restrained",
+   "paper": {
+    "band": "light",
+    "L": 95.5,
+    "hue": 88
+   },
+   "display": {
+    "class": "roman-serif",
+    "face": "Hahmlet"
+   },
+   "accent": {
+    "band": "chromatic-indigo",
+    "hue": 240
+   },
+   "keywords": [
+    "bookshop",
+    "bookstore",
+    "tea house",
+    "hanok",
+    "craft studio",
+    "workshop",
+    "gallery",
+    "exhibition",
+    "cultural space",
+    "stationery",
+    "calligraphy",
+    "paper",
+    "책방",
+    "서점",
+    "찻집",
+    "다실",
+    "한옥",
+    "공방",
+    "전시",
+    "문화공간",
+    "한지",
+    "서예",
+    "문구"
+   ],
+   "material": "mulberry-paper ivory, ink-black text, Hahmlet light-weight Hangul heads over Maru Buri prose with Newsreader Latin, 1px warm rules that cut the page into thin cells, one indigo dye",
+   "file": "references/themes/hanji.md",
+   "photo": "warm sat=-8 con=-6",
+   "pictured": "Catalogue Rows, Split hero",
+   "picture": "references/themes/hanji.jpg"
   },
   {
    "name": "Hedgerow",
